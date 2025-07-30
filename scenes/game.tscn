@@ -394,3 +394,12 @@ shape = SubResource("WorldBoundaryShape2D_u5sy4")
 
 [node name="slime" parent="." instance=ExtResource("7_u5sy4")]
 position = Vector2(168, 4)
+
+[node name="Label" type="Label" parent="."]
+offset_left = -175.0
+offset_top = -73.0
+offset_right = -55.0
+offset_bottom = 2.0
+text = "A to move left
+D to move right
+Space to jump!"
